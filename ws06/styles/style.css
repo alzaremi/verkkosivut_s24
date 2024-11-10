@@ -1,0 +1,193 @@
+body {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica;
+    border: 1px solid rgb(251, 1, 155);
+    flex-direction: column;
+    height: fit-content;
+    background-color: rgb(244, 241, 241);
+  }
+  header,
+footer {
+  padding: 1em;
+  color: rgb(251, 233, 233);
+  background-color: rgb(251, 1, 100);
+  clear: left;
+  text-align: center;
+}
+h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  
+  div.container {
+    width: 100%;
+    background-color: #fae8e8;
+    
+  }
+
+  
+  p {
+    position: relative;
+    left: 20px;
+    font-family: Arial, sans-serif;
+  }
+  #toinen {
+    font-size: 16px;
+    color: rgb(252, 81, 81);
+    text-align: center;
+  }
+  #nav2 {
+    float: left;
+    width: 25%;
+    background: #fa8282;
+    border-right: 1px solid rgb(252, 128, 128);
+    height: 250px;
+    padding: 0px;
+  }
+  a:link {
+    color: #650606;
+  }
+  a:visited {
+    color: #870202;
+  }
+  a:focus {
+    color: #ff0000;
+  }
+  a:hover {
+    color: #cc0000;
+  }
+  a:active {
+    color: #ff0000;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 5px;
+  }
+  
+  #bar {
+    padding-left: 15px;
+    margin: 5px;
+    color:#870202;
+  }
+  
+  #sektio {
+    width: 100%;
+    height: 250px;
+    padding: 0%;
+  }
+  
+  .wrapper {
+    display: flex;
+  }
+  
+  .wrapper > div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  nav {
+    max-width: 100%;
+    background-color: #f4d2d2;
+    margin: 0;
+    padding: 1em;
+  }
+  
+  nav ul a {
+    text-decoration: none;
+  }
+  
+  section {
+    float: left;
+    width: 65%;
+    padding: 1em;
+    color: rgb(255, 0, 0);
+    height: 230px;
+    text-align: center;
+  }
+  article {
+    float: left;
+    width: 65%;
+    padding: 1em;
+    color: rgb(255, 0, 0);
+    height: 230px;
+    text-align: center;
+  }
+  
+  aside {
+    float: right;
+    width: 30%;
+    padding: 1em;
+    border-left: 1px solid rgb(251, 3, 3);
+    
+    text-align: center;
+    color: rgb(255, 0, 0);
+    height:500px;
+  }
+  
+  #kuva1 {
+    padding-left: 15px;
+    margin: 5px;
+  }
+  
+  #kuva2 {
+    padding-left: 15px;
+    margin: 5px;
+  }
+  #kuva3 {
+    padding-left: 15px;
+    margin: 5px;
+  }
+  figcaption{
+    color: rgb(255, 0, 0);
+    padding: 5px;
+    text-align: center;
+  }
+  #p1{
+    text-align: center;
+    margin-right: 30px;
+  }
+  #p2{
+    text-align: center;
+    margin-right: 30px;
+  }
+  #jana{
+    color:#ff0000;
+    
+  }
+  #bar1{
+    color:#060005;
+    
+  }
+  figure{
+    width: 30%;
+    padding: 1em;
+    border-left: 1px solid rgb(251, 3, 3);
+    border-bottom:1px solid #cc0000;
+    border-right:1px solid #cc0000;
+    border-top: 1px solid #cc0000;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    height:30%;
+  }
+  #flower-progress {
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid pink; 
+}
+
+#flower-progress::-webkit-progress-value {
+    background-color: rgb(236, 99, 160);
+    border-radius: 10px;
+}
+
+#flower-progress::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 10px;
+}

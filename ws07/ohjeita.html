@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        <div id="div">
+          <h1 id="kaunis-hymy">KAUNIS HYMY</h1>
+        </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ohjeita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./yhteystiedot.html">Yhteystiedot</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="mx-auto p-2" style="width: 800px;">
+
+      <img src="./kuvat/hampaidenhoito.jpg" class="rounded-3"
+          alt="Kuvalinkki rikki...">
+
+  </div>
+ 
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Hammasvälien puhdistaminen </h2>
+                <p>Näin puhdistat hammasvälit oikeaoppisesti!</p>
+                <p><a href="https://www.youtube.com/watch?v=XwI-UUvht3s" target="_blank" class="btn my-custom-btn"> Katso tästä &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Hammastahnan valinta</h2>
+                <p>Näin valitset sinulle sopivan hammastahnan!</p>
+                <p><a href="https://www.sunstargum.com/fi-fi/suun-terveys/nain-valitset-oikean-hammastahnan.html" target="_blank"
+                        class="btn my-custom-btn">Lue
+                        lisää &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Hampaiden harjaus</h2>
+                <p>Näin harjaat hampaat oikeaoppisesti!</p>
+                <p><a href="https://www.youtube.com/watch?v=-vKOh_cpi9g" target="_blank" class="btn my-custom-btn">Katso tästä &raquo;</a>
+                </p>
+ 
+        </div>
+<!--         <div class="mx-auto p-2" style="width: 800px;">
+
+            <img src="./kuvat/hammaslanka.jpg" class="rounded-3"
+                alt="Kuvalinkki rikki...">
+        </div> -->
+
+         <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./kuvat/eroosio.jpg" alt="eroosio" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Eroosio</h1> 
+                <p>Hammaseroosio on hampaan pinnan kemiallista liukenemista happojen vaikutuksesta ilman bakteerien mukana oloa. Hapot liuottavat ja pehmentävät hampaan pintaa.</p> 
+               
+              </div>
+            </div>
+          </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="./kuvat/ientulehdus.jpg" alt="ientulehdus" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Ientulehdus</h1> 
+                        <p>Bakteeriplakin eli biofilmin kerääntyminen ienrajaan ja hammasväleihin aiheuttaa ientulehduksen. Tulehtunut ien on punoittava, usein hieman turvonnut, ja ikenestä vuotaa verta esimerkiksi hampaita harjatessa.</p>
+                      </div>
+                    </div>
+                  </div>
+              
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./kuvat/Kiillekaries.jpg" alt="kiillekaries" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Kiillekaries</h1> 
+                <p>Karieksen eli hampaiden reikiintymisen aiheuttavat suussa elävät bakteerit, jotka tuottavat sokereista happoa. Bakteereiden tuottama happo liuottaa hammasta suojaavasta kiilteestä mineraaleja ja aiheuttaa hampaaseen reiän.</p> 
+                
+              </div>
+            </div>
+          </div>
+
+        <hr>
+        <footer>
+          <div class="row" style="width: 800px;">
+              <div class="col-md-6">
+                  <p>Copyright &copy; 2024 Emilia Al-Zararee</p>
+              </div>
+              <div class="col-md-6 text-md-end">
+                  <a href="#" class="text-dark">Terms of Use</a>
+                  <span class="text-muted mx-2">|</span>
+                  <a href="#" class="text-dark">Privacy Policy</a>
+              </div>
+          </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

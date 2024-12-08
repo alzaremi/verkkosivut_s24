@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+header {
+    background: #0e8bc3;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #0e8bc3, #37c2ff);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: #fff;
+    color: #0e8bc3;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tips Section */
+.tips {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.tips h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.tips-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tip {
+    width: 200px;
+    padding: 20px;
+    background: #f0f8ff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tip img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.tip p {
+    font-size: 1rem;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    background: #e6f7ff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap:
